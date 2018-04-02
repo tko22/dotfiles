@@ -1,0 +1,5 @@
+alias cpu='sysctl -n machdep.cpu.brand_string'
+alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+alias uptime='grc uptime'
+alias pyc='find . -name "*.pyc" -exec rm -rf {} \'
