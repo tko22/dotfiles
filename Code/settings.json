@@ -1,0 +1,67 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.disablePromptForFeatures": [
+        "flake8"
+    ],
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (Eex)"
+    ],
+    "gitlens.codeLens.scopes": [],
+    "gitlens.codeLens.enabled": false,
+    "gitlens.recentChanges.highlight.locations": [
+        "gutter",
+        "overview",
+        "line"
+    ],
+    "gitlens.statusBar.enabled": false,
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Default High Contrast"
+    },
+    "gitlens.keymap": "alternate",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#21252b",
+        "peekViewEditor.matchHighlightBackground": "#e2934991"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+    },
+    "eslint.autoFixOnSave": true
+
+}
