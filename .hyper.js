@@ -126,8 +126,8 @@ module.exports = {
       resizable: true,
       startAlone: true,
       startup: true,
-      size: 0.45,
-      tray: false,
+      size: 0.48,
+      tray: true,
       unique: false
     } 
     // for advanced config flags please refer to https://hyper.is/#cfg
@@ -140,7 +140,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyper-statusline',
+    // 'hyper-statusline',
     'hypercwd', 
     'hyperterm-chesterish',
     // 'hyperterm-visor',
