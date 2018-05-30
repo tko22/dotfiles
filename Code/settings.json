@@ -62,6 +62,10 @@
         "**/.git/subtree-cache/**": true,
         "**/node_modules/**": true
     },
-    "eslint.autoFixOnSave": true
-
+    "eslint.autoFixOnSave": true,
+    "git.autofetch": false,
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.gitExplorer.enabled": false,
+    
 }
