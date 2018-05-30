@@ -51,3 +51,8 @@ brew install mongodb
 brew install pango
 brew install wifi-password
 brew install tldr
+
+# zsh http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s $(which zsh)
+npm install --global pure-prompt
