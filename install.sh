@@ -29,6 +29,9 @@ brew install pypy3
 
 # Pipenv!
 brew install pipenv
+pip install black
+pip install flake8
+pip install mypy
 
 # Install git utilities.
 brew install git-open
@@ -56,3 +59,9 @@ brew install tldr
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 npm install --global pure-prompt
+
+# zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# zsh-highlight
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting

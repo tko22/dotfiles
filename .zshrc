@@ -65,6 +65,8 @@ plugins=(
   osx
   z
 	docker
+	zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -72,6 +74,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH=~/bin:$PATH
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -97,6 +100,9 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # personal aliases
 source ~/.aliases
+
+# rustup
+# source $HOME/.cargo/env
 
 # ls colors
 # export CLICOLOR=1
