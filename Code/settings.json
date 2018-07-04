@@ -38,5 +38,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "reason.path.ocamlmerlin": "/Users/tko/.opam/4.06.1/bin/ocamlmerlin",
-    "python.formatting.blackPath": "black"
+    "python.formatting.blackPath": "black",
+    "explorer.openEditors.visible": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }

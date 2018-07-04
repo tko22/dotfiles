@@ -10,12 +10,11 @@ code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
-code --install-extension eg2.tslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension flowtype.flow-for-vscode
-code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
+code --install-extension freebroccolo.reasonml
 code --install-extension humao.rest-client
 code --install-extension humy2833.ftp-simple
 code --install-extension jcanero.hoogle-vscode
@@ -24,10 +23,11 @@ code --install-extension justusadam.language-haskell
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode.Go
+code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension patrys.vscode-code-outline
 code --install-extension pnp.polacode
 code --install-extension redhat.java
-code --install-extension rust-lang.rust
 code --install-extension vector-of-bool.cmake-tools
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-pack
