@@ -75,6 +75,10 @@ source $ZSH/oh-my-zsh.sh
 export PATH=~/bin:$PATH
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
+# Python Config
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
+source /usr/local/bin/virtualenvwrapper.sh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -100,6 +104,8 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # personal aliases
 source ~/.aliases
+
+eval `opam config env`
 
 # rustup
 # source $HOME/.cargo/env

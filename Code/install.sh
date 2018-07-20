@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 code --install-extension 13xforever.language-x86-64-assembly
-code --install-extension JuanBlanco.solidity
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension Vans.haskero
 code --install-extension Zignd.html-css-class-completion
@@ -19,6 +18,7 @@ code --install-extension humao.rest-client
 code --install-extension humy2833.ftp-simple
 code --install-extension jcanero.hoogle-vscode
 code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension JuanBlanco.solidity
 code --install-extension justusadam.language-haskell
 code --install-extension ms-python.python
 code --install-extension ms-vscode.cpptools

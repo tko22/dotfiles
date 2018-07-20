@@ -8,7 +8,6 @@ xcode-select --install
 brew update
 
 # Install brew essentials.
-brew install heroku
 brew install git
 brew install ack
 
@@ -22,7 +21,7 @@ brew install tmate
 
 # Install Python utlitlies.
 brew install python3
-brew install python@2
+brew upgrade python3
 brew install pypy3
 
 # Python utilities.
@@ -41,6 +40,7 @@ brew install gist
 brew install node
 brew upgrade node
 brew install ruby
+brew install -y opam m4
 
 # Install network utilities
 brew install sshuttle

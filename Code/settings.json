@@ -1,44 +1,40 @@
 {
-    "workbench.colorTheme": "Atom One Dark",
-    "git.confirmSync": false,
-    "python.linting.pylintEnabled": true,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.recentChanges.highlight.locations": [
-        "gutter",
-        "overview",
-        "line"
-    ],
-    "gitlens.statusBar.enabled": false,
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#21252b",
-        "peekViewEditor.matchHighlightBackground": "#e2934991",
-        "[One Dark Pro]": {
-            "editor.selectionHighlightBorder": "#333b3f",
-            "editor.selectionHighlightBackground": "#333b3f",
-            "editor.background": "#282C34",
-        },
-        
-    },
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
-    "workbench.statusBar.feedback.visible": false,
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/**": true
-    },
-    "eslint.autoFixOnSave": true,
-    "git.autofetch": false,
-    "gitlens.historyExplorer.enabled": true,
-    "gitlens.gitExplorer.enabled": false,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "reason.path.ocamlmerlin": "/Users/tko/.opam/4.06.1/bin/ocamlmerlin",
-    "python.formatting.blackPath": "black",
-    "explorer.openEditors.visible": 0,
-    "javascript.updateImportsOnFileMove.enabled": "always"
+  "workbench.colorTheme": "Atom One Dark",
+  "git.confirmSync": false,
+  "python.linting.pylintEnabled": true,
+  "gitlens.recentChanges.highlight.locations": ["gutter", "overview", "line"],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#21252b",
+    "peekViewEditor.matchHighlightBackground": "#e2934991",
+    "[One Dark Pro]": {
+      "editor.selectionHighlightBorder": "#333b3f",
+      "editor.selectionHighlightBackground": "#333b3f",
+      "editor.background": "#282C34"
+    }
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "workbench.statusBar.feedback.visible": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "eslint.autoFixOnSave": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "reason.path.ocamlmerlin": "/Users/tko/.opam/4.06.1/bin/ocamlmerlin",
+  "explorer.openEditors.visible": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.formatting.provider": "black",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "python.pythonPath": "~/.virtualenvs/default/bin/python",
+  "python.venvPath": "~/.virtualenvs",
+  "editor.formatOnSave": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.statusBar.enabled": false
 }
