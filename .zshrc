@@ -79,6 +79,9 @@ export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
 source /usr/local/bin/virtualenvwrapper.sh
 
+# gopath
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
