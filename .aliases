@@ -16,7 +16,7 @@ alias dcup='docker-compose up'
 alias nah='git reset --hard; git clean -df'
 alias squash='git rebase -i HEAD~2'
 alias rebase='git rebase origin/master'
-
+alias cleanbranches='git remote prune origin'
 # start and run bash of a given docker image
 function drunbash() {
     docker run --rm -it "$1" bash

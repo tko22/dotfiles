@@ -1,15 +1,26 @@
 {
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Oceanic Plus",
   "git.confirmSync": false,
   "python.linting.pylintEnabled": true,
-  "gitlens.recentChanges.highlight.locations": ["gutter", "overview", "line"],
+  "gitlens.recentChanges.highlight.locations": [
+    "gutter",
+    "overview",
+    "line"
+  ],
   "workbench.colorCustomizations": {
-    "activityBar.background": "#21252b",
     "peekViewEditor.matchHighlightBackground": "#e2934991",
     "[One Dark Pro]": {
       "editor.selectionHighlightBorder": "#333b3f",
       "editor.selectionHighlightBackground": "#333b3f",
       "editor.background": "#282C34"
+    },
+    "[Atom One Dark]": {
+      "activityBar.background": "#21252b"
+    },
+    "[Oceanic Next]": {
+      "statusBar.background": "#252526",
+      "titleBar.activeBackground": "#252526",
+      "activityBar.background": "#252526"
     }
   },
   "[javascript]": {
@@ -36,5 +47,9 @@
   "editor.formatOnSave": true,
   "gitlens.codeLens.enabled": false,
   "gitlens.mode.statusBar.enabled": false,
-  "gitlens.statusBar.enabled": false
+  "gitlens.statusBar.enabled": false,
+  "gitlens.gitExplorer.enabled": false,
+  "gitlens.resultsExplorer.location": "explorer",
+  "gitlens.historyExplorer.location": "scm",
+  "window.zoomLevel": 0
 }

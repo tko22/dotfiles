@@ -28,9 +28,9 @@ brew install pypy3
 
 # Pipenv!
 brew install pipenv
-pip install black
-pip install flake8
-pip install mypy
+pip3 install black
+pip3 install flake8
+pip3 install mypy
 
 # Install git utilities.
 brew install git-open
@@ -50,7 +50,6 @@ npm install --global speed-test
 brew install go
 brew install dep
 
-brew install mongodb
 brew install pango
 brew install wifi-password
 brew install tldr
