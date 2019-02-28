@@ -50,6 +50,10 @@ npm install --global speed-test
 brew install go
 brew install dep
 
+# rust
+curl https://sh.rustup.rs -sSf | sh
+rustup update
+
 brew install pango
 brew install wifi-password
 brew install tldr
@@ -64,3 +68,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # zsh-highlight
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+

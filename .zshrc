@@ -42,6 +42,10 @@ source /usr/local/bin/virtualenvwrapper.sh
 # gopath
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # Preferred editor for local and remote sessions
