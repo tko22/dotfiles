@@ -33,7 +33,7 @@ pip3 install flake8
 pip3 install mypy
 
 # Install git utilities.
-brew install git-open
+brew install git-open # `git open`
 brew install gist
 
 # Install other languages.
@@ -54,7 +54,8 @@ brew install dep
 curl https://sh.rustup.rs -sSf | sh
 rustup update
 
-brew install pango
+# brew packages/utilities
+brew install pango # Internationalized text layout and rendering library 
 brew install wifi-password
 brew install tldr
 
@@ -68,5 +69,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # zsh-highlight
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+
+# fuzzy, ctrl-t to search files, ctrl-r to search commands
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 

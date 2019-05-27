@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# to generate new list of extenstions: `code --list-extensions | xargs -L 1 echo code --install-extension`
 
 code --install-extension 13xforever.language-x86-64-assembly
 code --install-extension Vans.haskero
@@ -23,11 +24,14 @@ code --install-extension ms-vscode.Go
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-vsliveshare.vsliveshare-audio
 code --install-extension ms-vsliveshare.vsliveshare-pack
+code --install-extension mshr-h.veriloghdl
 code --install-extension naumovs.theme-oceanicnext
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension pnp.polacode
 code --install-extension redhat.java
+code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
 code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven

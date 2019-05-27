@@ -26,6 +26,9 @@
   "[javascript]": {
     "editor.tabSize": 2
   },
+  "[go]": {
+    "editor.formatOnSave": true
+  },
   "workbench.statusBar.feedback.visible": false,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -51,5 +54,20 @@
   "gitlens.gitExplorer.enabled": false,
   "gitlens.resultsExplorer.location": "explorer",
   "gitlens.historyExplorer.location": "scm",
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "gitlens.views.repositories.enabled": false,
+  "gitlens.views.fileHistory.location": "scm",
+  "gitlens.views.lineHistory.location": "scm",
+  "gitlens.views.compare.location": "explorer",
+  "gitlens.views.search.location": "explorer",
+  "breadcrumbs.enabled": true,
+  "git.autofetch": true,
+  "python.jediEnabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.associations": {
+    "*mdx": "markdown"
+  },
+  "liveshare.featureSet": "insiders"
 }
