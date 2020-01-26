@@ -54,10 +54,14 @@ brew install dep
 curl https://sh.rustup.rs -sSf | sh
 rustup update
 
+# C
+brew install gdb
+
 # brew packages/utilities
 brew install pango # Internationalized text layout and rendering library 
 brew install wifi-password
 brew install tldr
+brew install telnet
 
 # zsh http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
