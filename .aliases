@@ -17,6 +17,7 @@ alias nah='git reset --hard; git clean -df'
 alias squash='git rebase -i HEAD~2'
 alias rebase='git rebase origin/master'
 alias cleanbranches='git remote prune origin'
+alias cleanlocalbranches='git fetch -p && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done'
 
 # start and run bash of a given docker image
 function drunbash() {

@@ -31,6 +31,7 @@ brew install pipenv
 pip3 install black
 pip3 install flake8
 pip3 install mypy
+pip3 install howdoi
 
 # Install git utilities.
 brew install git-open # `git open`
@@ -80,4 +81,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 # install nvm - node js version manager
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+brew install jrnl
+
+# https://github.com/dandavison/delta follow rest of instructions to use
+brew install git-delta
 
