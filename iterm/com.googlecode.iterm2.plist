@@ -3062,7 +3062,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/tko/github/dotfiles/iterm</string>
+	<string>/Users/timothy_ko/github/dotfiles/iterm</string>
 	<key>PreventEscapeSequenceFromClearingHistory</key>
 	<false/>
 	<key>Print In Black And White</key>
