@@ -10,3 +10,7 @@ chmod 775 install.sh
 cp -a .vim ~/.vim
 cp .vimrc ~/.vimrc
 ```
+
+For Spectacle,
+
+Cmd+Option+Space is already used by spotlight, you need to turn it off at System Preferences -> Keyboards -> Shortcuts -> Spotlight
