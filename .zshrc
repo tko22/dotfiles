@@ -44,7 +44,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # rust
-export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/.cargo/bin:$PATH"
 
 # nvm
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"

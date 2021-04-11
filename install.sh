@@ -36,12 +36,13 @@ pip3 install howdoi
 # Install git utilities.
 brew install git-open # `git open`
 brew install gist
+brew install gh
 
 # Install other languages.
 brew install node
 brew upgrade node
 brew install ruby
-brew install -y opam m4
+# brew install -y opam m4
 
 # Install network utilities
 brew install sshuttle
@@ -52,8 +53,8 @@ brew install go
 brew install dep
 
 # rust
-curl https://sh.rustup.rs -sSf | sh
-rustup update
+# curl https://sh.rustup.rs -sSf | sh
+# rustup update
 
 # C
 brew install gdb
