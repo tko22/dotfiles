@@ -1,73 +1,53 @@
 {
-  "workbench.colorTheme": "Oceanic Plus",
-  "git.confirmSync": false,
-  "python.linting.pylintEnabled": true,
-  "gitlens.recentChanges.highlight.locations": [
-    "gutter",
-    "overview",
-    "line"
-  ],
-  "workbench.colorCustomizations": {
-    "peekViewEditor.matchHighlightBackground": "#e2934991",
-    "[One Dark Pro]": {
-      "editor.selectionHighlightBorder": "#333b3f",
-      "editor.selectionHighlightBackground": "#333b3f",
-      "editor.background": "#282C34"
+    "workbench.colorTheme": "Oceanic Plus",
+    "git.confirmSync": false,
+    "python.linting.pylintEnabled": true,
+    "workbench.colorCustomizations": {
+        "peekViewEditor.matchHighlightBackground": "#e2934991",
+        "[One Dark Pro]": {
+            "editor.selectionHighlightBorder": "#333b3f",
+            "editor.selectionHighlightBackground": "#333b3f",
+            "editor.background": "#282C34"
+        },
+        "[Atom One Dark]": {
+            "activityBar.background": "#21252b"
+        },
+        "[Oceanic Next]": {
+            "statusBar.background": "#252526",
+            "titleBar.activeBackground": "#252526",
+            "activityBar.background": "#252526"
+        }
     },
-    "[Atom One Dark]": {
-      "activityBar.background": "#21252b"
+    "[javascript]": {
+        "editor.tabSize": 2
     },
-    "[Oceanic Next]": {
-      "statusBar.background": "#252526",
-      "titleBar.activeBackground": "#252526",
-      "activityBar.background": "#252526"
-    }
-  },
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[go]": {
-    "editor.formatOnSave": true
-  },
-  "workbench.statusBar.feedback.visible": false,
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
-  },
-  "eslint.autoFixOnSave": true,
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "reason.path.ocamlmerlin": "/Users/tko/.opam/4.06.1/bin/ocamlmerlin",
-  "explorer.openEditors.visible": 0,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "python.formatting.provider": "black",
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
-  "python.pythonPath": "~/.virtualenvs/default/bin/python",
-  "python.venvPath": "~/.virtualenvs",
-  "editor.formatOnSave": true,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.mode.statusBar.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.gitExplorer.enabled": false,
-  "gitlens.resultsExplorer.location": "explorer",
-  "gitlens.historyExplorer.location": "scm",
-  "window.zoomLevel": 0,
-  "gitlens.views.repositories.enabled": false,
-  "gitlens.views.fileHistory.location": "scm",
-  "gitlens.views.lineHistory.location": "scm",
-  "gitlens.views.compare.location": "explorer",
-  "gitlens.views.search.location": "explorer",
-  "breadcrumbs.enabled": true,
-  "git.autofetch": true,
-  "python.jediEnabled": false,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.multiCursorModifier": "ctrlCmd",
-  "files.associations": {
-    "*mdx": "markdown"
-  },
-  "liveshare.featureSet": "insiders"
+    "[go]": {
+        "editor.formatOnSave": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.openEditors.visible": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.formatting.provider": "black",
+    "python.pythonPath": "~/.virtualenvs/default/bin/python",
+    "python.venvPath": "~/.virtualenvs",
+    "editor.formatOnSave": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.mode.statusBar.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "git.autofetch": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.associations": {
+        "*mdx": "markdown"
+    },
+    "liveshare.featureSet": "insiders"
 }
