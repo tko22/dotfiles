@@ -7,8 +7,6 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
-brew install openssl readline sqlite3 xz zlib
-
 # Install brew essentials.
 brew install git
 brew install ack
@@ -22,14 +20,18 @@ brew install htop
 brew install tmate
 
 # Install Python utilities
+
+# https://github.com/pyenv/pyenv/blob/master/COMMANDS.md
 brew install pyenv
+# dependencies for pyenv to install python 
+brew install openssl readline sqlite3 xz zlib
+
 brew install python3
 brew upgrade python3
 brew install pypy3
 
 # Python utilities.
 
-# Pipenv!
 brew install pipenv
 pip3 install black
 pip3 install flake8
