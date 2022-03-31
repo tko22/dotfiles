@@ -19,7 +19,8 @@ brew install httpie
 brew install htop
 brew install tmate
 
-# Install Python utlitlies.
+# Install Python utilities
+brew install pyenv
 brew install python3
 brew upgrade python3
 brew install pypy3
