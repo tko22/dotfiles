@@ -36,6 +36,7 @@ export PATH=~/bin:$PATH
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Python Config
+eval "$(pyenv init -)"
 export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
 source /usr/local/bin/virtualenvwrapper.sh
 
