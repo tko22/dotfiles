@@ -7,6 +7,8 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
+brew install openssl readline sqlite3 xz zlib
+
 # Install brew essentials.
 brew install git
 brew install ack
