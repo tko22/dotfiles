@@ -19,7 +19,16 @@
         }
     },
     "[javascript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
     },
     "[go]": {
         "editor.formatOnSave": true
@@ -36,18 +45,33 @@
     "python.formatting.provider": "black",
     "python.pythonPath": "~/.virtualenvs/default/bin/python",
     "python.venvPath": "~/.virtualenvs",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.mode.statusBar.enabled": false,
     "gitlens.statusBar.enabled": false,
-    "window.zoomLevel": 0,
     "breadcrumbs.enabled": true,
     "git.autofetch": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.multiCursorModifier": "ctrlCmd",
     "files.associations": {
         "*mdx": "markdown"
     },
-    "liveshare.featureSet": "insiders"
+    "liveshare.featureSet": "insiders",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "python.defaultInterpreterPath": "~/.virtualenvs/default/bin/python",
+    "editor.detectIndentation": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.inlineSuggest.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
