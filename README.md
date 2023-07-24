@@ -20,3 +20,6 @@ Finder -> Preferences -> Sidebar -> click timothyko
 
 And then make the default window show `timothyko` in Finder -> Preferences -> General -> New Finder windows show:
 
+### other
+
+`Cmd-Shift-A` Services => Text
