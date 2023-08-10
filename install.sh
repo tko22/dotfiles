@@ -93,3 +93,4 @@ brew install jrnl
 # https://github.com/dandavison/delta follow rest of instructions to use
 brew install git-delta
 
+brew install nvm

@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 # to generate new list of extenstions: `code --list-extensions | xargs -L 1 echo code --install-extension`
 
-code --install-extension 13xforever.language-x86-64-assembly
-code --install-extension Vans.haskero
 code --install-extension aaron-bond.better-comments
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.Bookmarks
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
+code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
 code --install-extension flowtype.flow-for-vscode
 code --install-extension formulahendry.code-runner
-code --install-extension freebroccolo.reasonml
+code --install-extension GitHub.copilot
 code --install-extension golang.go
 code --install-extension GrapeCity.gc-excelviewer
 code --install-extension humao.rest-client
@@ -25,14 +24,21 @@ code --install-extension marcoms.oceanic-plus
 code --install-extension mechatroner.rainbow-csv
 code --install-extension mongodb.mongodb-vscode
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.black-formatter
 code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
 code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.remote-explorer
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension naumovs.theme-oceanicnext
 code --install-extension pnp.polacode
 code --install-extension redhat.java
-code --install-extension rust-lang.rust
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension tomoki1207.pdf
+code --install-extension Vans.haskero
+code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
