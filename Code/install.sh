@@ -38,8 +38,6 @@ code --install-extension redhat.java
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension tomoki1207.pdf
 code --install-extension Vans.haskero
-code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
-code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
