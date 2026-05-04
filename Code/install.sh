@@ -42,5 +42,6 @@ code --install-extension vscjava.vscode-maven
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension bierner.github-markdown-preview
-code --install-extension jonathan-yeung.mark-sharp
+code --install-extension codesmith.markdown-inline-editor-vscode
+
 
