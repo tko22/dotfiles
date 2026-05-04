@@ -9,7 +9,6 @@ code --install-extension christian-kohler.path-intellisense
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
-code --install-extension flowtype.flow-for-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension GitHub.copilot
 code --install-extension golang.go
@@ -17,8 +16,6 @@ code --install-extension GrapeCity.gc-excelviewer
 code --install-extension humao.rest-client
 code --install-extension humy2833.ftp-simple
 code --install-extension jcanero.hoogle-vscode
-code --install-extension JuanBlanco.solidity
-code --install-extension justusadam.language-haskell
 code --install-extension lextudio.restructuredtext
 code --install-extension marcoms.oceanic-plus
 code --install-extension mechatroner.rainbow-csv
@@ -37,7 +34,6 @@ code --install-extension pnp.polacode
 code --install-extension redhat.java
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension tomoki1207.pdf
-code --install-extension Vans.haskero
 code --install-extension vscjava.vscode-java-debug
 code --install-extension vscjava.vscode-java-dependency
 code --install-extension vscjava.vscode-java-pack
@@ -45,3 +41,6 @@ code --install-extension vscjava.vscode-java-test
 code --install-extension vscjava.vscode-maven
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension xabikos.JavaScriptSnippets
+code --install-extension bierner.github-markdown-preview
+code --install-extension jonathan-yeung.mark-sharp
+
