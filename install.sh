@@ -26,8 +26,6 @@ brew install pyenv
 # dependencies for pyenv to install python 
 brew install openssl readline sqlite3 xz zlib
 
-brew install python3
-brew upgrade python3
 brew install pypy3
 
 # Python utilities.
@@ -73,7 +71,7 @@ brew install telnet
 # zsh http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s $(which zsh)
-npm install --global pure-prompt
+brew install pure
 
 # zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
