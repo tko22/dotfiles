@@ -54,6 +54,8 @@ npm install --global speed-test
 brew install go
 brew install dep
 
+brew install jq
+
 # rust
 # curl https://sh.rustup.rs -sSf | sh
 # rustup update
@@ -71,6 +73,7 @@ brew install telnet
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 brew install pure
+
 
 # zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
