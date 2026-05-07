@@ -8,7 +8,6 @@ xcode-select --install
 brew update
 
 # Install brew essentials.
-brew install git
 brew install ack
 
 # Install download utilities.
