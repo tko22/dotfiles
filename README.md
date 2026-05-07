@@ -25,6 +25,8 @@ cp -a .vim ~/.vim
 cp .vimrc ~/.vimrc
 ```
 
+- [JQ](https://jqlang.org/)
+
 ### Rectangle (Previously spectacle)
 https://rectangleapp.com/
 
