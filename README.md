@@ -33,7 +33,12 @@ https://rectangleapp.com/
 `Cmd+Option+Space` is already used by spotlight, you need to turn it off at System Preferences -> Keyboards -> Shortcuts -> Spotlight
 
 ### Add Home folder to sidebar in finder
+<<<<<<< Updated upstream
 Finder -> Settings -> Sidebar -> click timothyko
+=======
+
+Finder -> Preferences -> Sidebar -> click timothyko
+>>>>>>> Stashed changes
 
 And then make the default window show `timothyko` in Finder -> Preferences -> General -> New Finder windows show:
 
@@ -41,5 +46,11 @@ And then make the default window show `timothyko` in Finder -> Preferences -> Ge
 
 ### other
 
+<<<<<<< Updated upstream
 1. `Cmd-Shift-A` Services => Text
 
+=======
+`Cmd-Shift-A` Services => Text
+
+- Ensure the ~/.oh-my-zsh, ~/.zsh_history are not root based so the autocomplete and history are shared across sessions
+>>>>>>> Stashed changes
