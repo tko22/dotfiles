@@ -1,7 +1,7 @@
 {
     "workbench.colorTheme": "Oceanic Plus",
     "git.confirmSync": false,
-    "python.linting.pylintEnabled": true,
+    "markdown-preview-github-styles.colorTheme": "light",
     "workbench.colorCustomizations": {
         "peekViewEditor.matchHighlightBackground": "#e2934991",
         "[One Dark Pro]": {
@@ -33,18 +33,13 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "explorer.openEditors.visible": 0,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "python.formatting.provider": "black",
-    "python.pythonPath": "~/.virtualenvs/default/bin/python",
-    "python.venvPath": "~/.virtualenvs",
     "editor.formatOnSave": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.mode.statusBar.enabled": false,
     "gitlens.statusBar.enabled": false,
-    "window.zoomLevel": 0,
     "breadcrumbs.enabled": true,
     "git.autofetch": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.multiCursorModifier": "ctrlCmd",
     "files.associations": {
         "*mdx": "markdown"
@@ -52,8 +47,20 @@
     "liveshare.featureSet": "insiders",
     "git.openRepositoryInParentFolders": "always",
     "pylint.args": [
-        "--disable=W1309",
-        "--disable=C0209",
-        "--disable=C0116"
-    ]
+        "--disable=W1309,C0209,C0116",
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "markdownlint.config": {
+        "MD029": false
+    },
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "markdown-mermaid.darkModeTheme": "base",
+    "theme-by-language.themes": {
+        "*": "Oceanic Plus",
+        "skill": "GitHub Light Default",
+        "markdown": "Atom One Light"
+    }
 }
