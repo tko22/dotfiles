@@ -42,4 +42,11 @@ And then make the default window show `timothyko` in Finder -> Preferences -> Ge
 ### other
 `Cmd-Shift-A` Services => Text
 
-- Ensure the ~/.oh-my-zsh, ~/.zsh_history are not root based so the autocomplete and history are shared across sessions
+
+Ensure the ~/.oh-my-zsh, ~/.zsh_history are not root based so the autocomplete and history are shared across sessions
+```
+sudo chown -R $(whoami) ~/.oh-my-zsh
+sudo chown $(whoami) ~/.zsh_history
+chmod 755 ~/.oh-my-zsh
+chmod 600 ~/.zsh_history
+```
