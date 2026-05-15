@@ -39,11 +39,13 @@ pip3 install howdoi
 brew install git-open # `git open`
 brew install gist
 brew install gh
+# https://github.com/dandavison/delta follow rest of instructions to use
+brew install git-delta
 
 # Install other languages.
-brew install node
-brew upgrade node
-brew install ruby
+# install nvm - node js version manager
+brew install nvm
+
 # brew install -y opam m4
 
 # Install network utilities
@@ -87,8 +89,3 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 brew install jrnl
 
-# https://github.com/dandavison/delta follow rest of instructions to use
-brew install git-delta
-
-# install nvm - node js version manager
-brew install nvm
