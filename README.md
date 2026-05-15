@@ -63,4 +63,5 @@ chmod 600 ~/.zsh_history
 ```
 git config --global user.name "Timothy Ko"
 git config --global user.email "timothy.l.ko@gmail.com"
+git config --global pull.rebase true
 ```
