@@ -31,8 +31,6 @@ brew install pypy3
 
 brew install pipenv
 pip3 install black
-pip3 install flake8
-pip3 install mypy
 pip3 install howdoi
 
 # Install git utilities.
