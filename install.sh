@@ -4,7 +4,7 @@
 xcode-select --install
 
 # Install Homebrew.
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
 
 # Install brew essentials.
@@ -65,7 +65,6 @@ brew install gdb
 
 # brew packages/utilities
 brew install pango # Internationalized text layout and rendering library 
-brew install wifi-password
 brew install tldr
 brew install telnet
 
