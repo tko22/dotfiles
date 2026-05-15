@@ -21,7 +21,7 @@ export ZSH=$HOME/.oh-my-zsh
 plugins=(
   git
   brew
-  osx
+  macos
   z
 	docker
 	zsh-syntax-highlighting
@@ -33,23 +33,14 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=~/bin:$PATH
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
-# Python Config
 eval "$(pyenv init -)"
-export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
-source /usr/local/bin/virtualenvwrapper.sh
 
 # gopath
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+#export GOPATH=$HOME/go
+#export PATH=$PATH:$GOPATH/bin
 
 # rust
 # export PATH="$HOME/.cargo/bin:$PATH"
-
-# nvm
-export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -74,7 +65,7 @@ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 # personal aliases
 source ~/.aliases
 
-eval `opam config env`
+# eval `opam config env`
 
 # rustup
 # source $HOME/.cargo/env
