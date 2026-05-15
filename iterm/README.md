@@ -17,3 +17,8 @@ Then unmark "Show mark indicators"
 <img width="775" alt="image" src="https://github.com/tko22/dotfiles/assets/27740557/f71d89cc-5924-4ccd-a934-9e5fc70e7c18">
 1. Ensure "Use System Window Restoration Setting" 
 2. Go to System Preferences Preferences => Desktop & Dock => Turn off `Close Windows when quitting an application`
+
+
+### Fix the selecting
+In the preferences, General => Selection
+- Uncheck the `Command Selection: Clicking on a command selects it to restrict Find and Filter`
