@@ -34,6 +34,11 @@ cp .vimrc ~/.vimrc
 
 `Cmd+Option+Space` is already used by spotlight, you need to turn it off at System Preferences -> Keyboards -> Shortcuts -> Spotlight
 
+### Customize finder Toolbar
+
+Right click on the toolbar (top part of the finder)
+`Customize Toolbar`
+
 ### Add Home folder to sidebar in finder
 
 Finder -> Preferences -> Sidebar -> click timothyko
