@@ -15,4 +15,5 @@ Then unmark "Show mark indicators"
 ### saving autocomplete history and stuff
 
 <img width="775" alt="image" src="https://github.com/tko22/dotfiles/assets/27740557/f71d89cc-5924-4ccd-a934-9e5fc70e7c18">
-Ensure "Use System Window Restoration Setting" and go to Preferences => Desktop & Dock => Turn off Close Windows when quitting an application
+1. Ensure "Use System Window Restoration Setting" 
+2. Go to System Preferences Preferences => Desktop & Dock => Turn off `Close Windows when quitting an application`
