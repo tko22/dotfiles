@@ -1,8 +1,8 @@
 for ssh. 
 
 ```
-ssh-keygen -t rsa
-ssh-add -K ~/.ssh/id_rsa
+ssh-keygen -t ed25519
+ssh-add --apple-use-keychain
 ```
 
 
